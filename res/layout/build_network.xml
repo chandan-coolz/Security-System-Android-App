@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="#FFA500"
+     >
+    
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Network"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_height="wrap_content"
+                android:text="Network Name"
+                android:textColor="#FFFFFF"
+                android:background="#000000"
+                 android:layout_marginLeft="30dp"
+                 android:layout_marginRight="30dp"
+                 android:layout_marginTop="80dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+   
+            <EditText
+            android:id="@+id/network_name"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName" 
+            android:background="#A9A9A9"
+            
+            />
+            
+    
+            <Button
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            android:text="Create" 
+            android:onClick="createNetwork"
+            />
+            
+            
+</LinearLayout>

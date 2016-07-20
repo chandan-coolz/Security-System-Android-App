@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coolcreation.securitualarmsystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.coolcreation.securitualarmsystem.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+                <activity
+            android:name="com.coolcreation.loginModule.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.loginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.coolcreation.mainpage.MainPageAfterLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.coolcreation.mainpage.mainPageAfterLogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="com.coolcreation.createNetwork.MyHomeCreateAlarm"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.coolcreation.createNetwork.myHomeCreateAlarm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name="com.coolcreation.showAlarmNotification.DisplayAlramMessage"
+            android:exported="true"
+            android:label="@string/app_name" >
+
+        </activity>
+             <service 
+            android:name="com.coolcreation.showAlarmNotification.FetchAlramService"
+            
+            ></service>
+          
+           
+             
+             
+         <activity
+            android:name="com.coolcreation.network.MyNetworkMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.coolcreation.network.myNetworkMain" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+             
+             
+             <activity
+            android:name="com.coolcreation.network.BuildNetwork"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.coolcreation.network.buildNetwork" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.coolcreation.network.JoinNetwork"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.coolcreation.network.joinNetwork" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.coolcreation.network.MyNetwork"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.coolcreation.network.myNetwork" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.coolcreation.network.NetworkDetail"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.coolcreation.network.networkDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>              
+    </application>
+
+</manifest>

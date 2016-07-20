@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFA500" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type of Alarm :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+              />
+                         <TextView
+                android:id="@+id/type"             
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0000FF"
+              />
+  
+        </LinearLayout>
+
+                <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time of Alarm :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+              />
+                         <TextView
+                android:id="@+id/time"             
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0000FF"
+              />
+  
+        </LinearLayout>
+        
+                
+                        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+              />
+                         <TextView
+                android:id="@+id/name"             
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0000FF"
+              />
+  
+        </LinearLayout>
+        
+                                <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+              />
+                         <TextView
+                android:id="@+id/address"             
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+         
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0000FF"
+              />
+  
+        </LinearLayout>
+                    
+                <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+              />
+                         <TextView
+                android:id="@+id/phoneNumber"             
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0000FF"
+              />
+  
+        </LinearLayout>                        
+                                
+    </LinearLayout>
+
+</ScrollView>

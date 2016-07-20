@@ -1,0 +1,66 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical"
+        android:background="#FFA500"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="NETWORK"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+           
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+             />
+
+        <Button
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" 
+            android:layout_marginTop="70dp"
+            android:onClick="myNetwork"
+            android:text="My Network" />
+        
+                <Button
+          
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+           
+            android:layout_marginTop="14dp"
+            android:onClick="buildNetwork"
+            android:text="Build Network" />
+        
+                 <Button
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:onClick="joinNetwork"
+            android:layout_marginTop="14dp"
+            android:text="Join Network" />
+    </LinearLayout>

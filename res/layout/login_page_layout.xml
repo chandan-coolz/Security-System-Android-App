@@ -1,0 +1,69 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFA500"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+
+            android:text="User Name "
+            android:textAlignment="viewStart"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="33dp"
+            android:ems="10"
+            android:inputType="textPersonName" 
+            android:background="#A9A9A9"
+            
+            />
+        
+                <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+
+            android:text="Password"
+            android:textAlignment="viewStart"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_pass"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="33dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="#A9A9A9"
+            
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:text="LOGG INN" 
+            android:textSize="30dp"
+            android:gravity="center"
+            android:onClick="userLogin"
+            />
+        
+    </LinearLayout>

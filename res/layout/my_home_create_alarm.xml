@@ -1,0 +1,94 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical"
+        android:background="#FFA500"
+        >
+
+        <TextView
+          
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="My home menu"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+           
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+             />
+
+                <TextView
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#32CD32"
+            android:textSize="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Button
+            android:id="@+id/ADbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" 
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="alramButtonClick"
+            android:text="Activate" />
+            
+        <LinearLayout 
+                    android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+            >
+        <TextView
+       
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:layout_marginTop="10dp"
+     
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+                <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:text="Deactive"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>  
+        <TextView
+   
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Burglary alarm: ARMED"
+            android:layout_marginTop="10dp"
+     
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
